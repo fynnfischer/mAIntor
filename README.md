@@ -2,6 +2,26 @@
 
 ![mAIntor logo](img/maintor_header.png)
 
+*Designed and built from idea to production by Fynn Fischer*
+
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=GitHub&logoColor=white)
+
+## Award
+
+<p align="center">
+  <img src="img/innovator_award.png" width="700"/>
+</p>
+
+
 ## Project Overview
 Lufthansa Aviation Training trains Pilots with various Training devices including Full Flight Simulators. 
 Responsible for a smooth operation and reliable training devices are the Flight Simulator Technicians and Engineers. They work in a 24/7 operation and their main work is troubleshooting and bringing the device back into operation during a breakdown. A time critical and stressfull task. 
@@ -16,7 +36,9 @@ This knowledge is **spread** over many applications and locations **hidden** in 
 mAIntor, the AI Maintenance Mentor for technicians, is an AI-Chatbot providing the maintenance team with instant access to the simulator knowledge and supporting them in their daily troubleshooting work. 
 With mAIntor technicians don't have to search through many documents during a breakdown but can ask the chatbot on a mobile device and receive an answer in just a few seconds.
 
-![Now vs mAIntor](img/now_maintor.png)
+<p align="center">
+  <img src="img/now_maintor.png" width="700"/>
+</p>
 
 
 ## Technical Overview
@@ -52,7 +74,9 @@ Each chunk is converted into a vector embedding with *test-embeddings-ada-002* a
     The user receives the response together with references to the source documents. 
 
 
-![RAG Architecture](img/rag_arch.png)
+<p align="center">
+  <img src="img/rag_arch.png" width="700"/>
+</p>
 
 
 ### Application/Deployment Architecture
@@ -92,17 +116,12 @@ We have two knowledge streams:
     We store all complaints and workorders there. 
 
     For the pipeline we get daily emails from AMOS containing a csv file with all the changes. We convert this data to documents, which upload to sharepoint. 
-    
-![Application Architecture](img/app_architecture.jpg)
 
+
+<p align="center">
+  <img src="img/app_architecture.jpg" width="700"/>
+</p>
 
 ## Demo
 
 [![Demo Video](https://img.youtube.com/vi/o5StunTxfPw/maxresdefault.jpg)](https://www.youtube.com/watch?v=o5StunTxfPw)  
-
-
-## Awards
-
-mAIntor was nominated for the Lufthansa Group Innovator Award 2025
-
-![Innovator award](img/innovator_award.png)
