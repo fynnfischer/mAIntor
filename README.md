@@ -1,6 +1,6 @@
 # mAIntor
 
-![mAIntor logo](img/logo_sml.PNG)
+![mAIntor logo](img/maintor_header.png)
 
 ## Overview
 Lufthansa Aviation Training trains Pilots with various Training devices including Full Flight Simulators. 
