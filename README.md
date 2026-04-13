@@ -4,7 +4,7 @@
 
 ## Project Overview
 Lufthansa Aviation Training trains Pilots with various Training devices including Full Flight Simulators. 
-Responsbile for a smooth operation and reliable training devices are the Flight Simulator Technicians and Engineers. They work in a 24/7 operation and their main work is troubleshooting and bringing the device back into operation during a breakdown. A time critical and stressfull task. 
+Responsible for a smooth operation and reliable training devices are the Flight Simulator Technicians and Engineers. They work in a 24/7 operation and their main work is troubleshooting and bringing the device back into operation during a breakdown. A time critical and stressfull task. 
 
 ### Pain
 The maintenance shifts mostly contain of two simulator technicians responsible for up to 18 simulators at a time.
@@ -19,7 +19,7 @@ With mAIntor technicians don't have to search through many documents during a br
 ![Now vs mAIntor](img/now_maintor.png)
 
 
-## Techincal Overview
+## Technical Overview
 
 
 ### RAG-Process
@@ -40,7 +40,7 @@ Each chunk is converted into a vector embedding with *test-embeddings-ada-002* a
 
 2. **Similarity Search** 
 
-    Based on the query vector a Similaritiy Search (*K-Nearest-Neihbors*) is being done on the embeddings. This returns the N most similar chunks, which contain the answer of the users question.
+    Based on the query vector a Similarity Search (*K-Nearest-Neighbors*) is being done on the embeddings. This returns the N most similar chunks, which contain the answer of the users question.
 
 3. **Answer Generation**
 
@@ -61,7 +61,7 @@ The application is deployed on Microsoft Azure.
 
 **Deployment**
 
-The frontend and backend are both running as a pod on Azure Kuberenetes Services (AKS)
+The frontend and backend are both running as a pod on Azure Kubernetes Services (AKS)
 
 **User Interface**
 
@@ -74,19 +74,35 @@ For the proof of concept the Embeddings database was FAISS.
 Currently the database in migrated to Azure AI Search to make the app more scaleable and faster.
 
 **Large Language Model**
+
 To make the deployment secure and not leak data during the API calls, we use Azure OpenAI Models. This makes sure the data stays inside the LHG bubble. 
 
 **Knowledge Source**
-We have two knowledge streams
 
-1. Sharepoint
+We have two knowledge streams:
+
+1. Sharepoint:
+
     SharePoint is already used by our technicians to store and access simulator documentation. 
     We built our own GraphAPI pipeline to pull these documents into our Environment. 
 
-2. AMOS
-    AMOS is the main software used for all operation control in Swiss Aviation. 
+2. AMOS:
+
+    AMOS is the main software used for most operational work in aviation. 
     We store all complaints and workorders there. 
 
-    For the pipeline we get daily emails from AMOS containing a csv file with all the changes. We convert this data to documents, whcih
+    For the pipeline we get daily emails from AMOS containing a csv file with all the changes. We convert this data to documents, which upload to sharepoint. 
     
 ![Application Architecture](img/app_architecture.jpg)
+
+
+## Demo
+
+[![Demo Video](https://img.youtube.com/vi/o5StunTxfPw/maxresdefault.jpg)](https://www.youtube.com/watch?v=o5StunTxfPw)  
+
+
+## Awards
+
+mAIntor was nominated for the Lufthansa Group Innovator Award 2025
+
+![Innovator award](img/innovator_award.png)
