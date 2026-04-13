@@ -13,6 +13,8 @@
 ![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
 
+## Awards
+
 <p align="center">
   <img src="img/innovator_award.png" width="500"/>
 </p>
@@ -20,7 +22,7 @@
 
 ## Project Overview
 Lufthansa Aviation Training trains Pilots with various Training devices including Full Flight Simulators. 
-Responsible for a smooth operation and reliable training devices are the Flight Simulator Technicians and Engineers. They work in a 24/7 operation and their main work is troubleshooting and bringing the device back into operation during a breakdown. A time critical and stressfull task. 
+Responsible for a smooth operation and reliable training devices are the Flight Simulator Technicians and Engineers. They work in a 24/7 operation and one of their main work is troubleshooting and bringing the device back into operation during a breakdown. A time critical and stressfull task. 
 
 ### Pain
 The maintenance shifts mostly contain of two simulator technicians responsible for up to 18 simulators at a time.
@@ -121,3 +123,16 @@ We have two knowledge streams:
 ## Demo
 
 [![Demo Video](https://img.youtube.com/vi/o5StunTxfPw/maxresdefault.jpg)](https://www.youtube.com/watch?v=o5StunTxfPw)  
+
+## Contributions
+| Area | Role |
+|------|------|
+| Concept & Pitch | Fynn Fischer |
+| Backend & RAG Pipeline | Fynn Fischer |
+| Azure Infrastructure & Deployment | Fynn Fischer |
+| Data Ingestion Pipelines | Fynn Fischer |
+| Frontend (React) | Developed by Colleague |
+| Data Aqusition & Cleaning | Developed by Colleague |
+|Project management | Fynn Fischer (recent handover to colleague)|
+|Stakeholder Communication | Fynn Fischer |
+| Change management | Fynn Fischer |
