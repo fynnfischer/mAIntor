@@ -2,9 +2,6 @@
 
 ![mAIntor logo](img/maintor_header.png)
 
-*Designed and built from idea to production by Fynn Fischer*
-
-## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -15,10 +12,9 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
-## Award
 
 <p align="center">
-  <img src="img/innovator_award.png" width="700"/>
+  <img src="img/innovator_award.png" width="500"/>
 </p>
 
 
