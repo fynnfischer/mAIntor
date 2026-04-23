@@ -122,7 +122,7 @@ We have two knowledge streams:
 
 ## Demo
 
-[![Demo Video](https://img.youtube.com/vi/o5StunTxfPw/maxresdefault.jpg)](https://www.youtube.com/watch?v=o5StunTxfPw)  
+[![Demo Video](https://img.youtube.com/vi/iZGD0gymhO8/maxresdefault.jpg)](https://youtu.be/iZGD0gymhO8)  
 
 ## Contributions
 | Area | Role |
